@@ -1,15 +1,16 @@
 package Box;
 
-public class Box {
+public abstract class Box {
+	
+	protected int symbol;
+	protected boolean isMine;
 
 	public Box() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void Activate() {
-		
-	}
-	public void unveiling() {
-		
-	}
+	public abstract void Activate();
+	public abstract void unveiling();
+	
+	
 }

@@ -4,8 +4,29 @@ import Box.Box;
 
 public class BoxEmpty extends Box{
 
+	private int NeighboringMine;
+	
 	public BoxEmpty() {
-		// TODO Auto-generated constructor stub
+		this.symbol=0;
 	}
 
+	@Override
+	public void Activate() {
+		
+		
+	}
+
+	@Override
+	public void unveiling() {
+		System.out.println(this.NeighboringMine);
+		
+	}
+	
+	public int getNeighboringMine() {
+		return this.NeighboringMine;
+	}
+	
+	public void setNeighboringMine(int NeighboringMine) {
+		this.NeighboringMine=NeighboringMine;
+	}
 }
