@@ -1,5 +1,8 @@
 package Plateau;
 
-public class Plateau {
+import Box.Box;
 
+public class Plateau {
+	
+	private Box[] BoxesTable;
 }

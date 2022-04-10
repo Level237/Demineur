@@ -22,7 +22,7 @@ public class BoxEmpty extends Box{
 		
 	}
 	
-	public int getNeighboringMine() {
+	public int getNbMines() {
 		return this.NeighboringMine;
 	}
 	
